@@ -7,8 +7,8 @@ func main() {
 	fmt.Println(prices[0:1])
 	prices[1] = 9.99
 
-	updatedPrices := append(prices, 5.99)
-	fmt.Println(updatedPrices)
+	prices = append(prices, 5.99)
+	fmt.Println(prices)
 }
 
 // func main() {
